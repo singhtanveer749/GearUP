@@ -125,7 +125,7 @@ Each team member uses a laptop with internet access and the following tools:
 - **Jira** for Agile management  
 - **Firebase** for backend services  
 - **Google Chrome** for testing  
-- **Microsoft Teams / Messenger** for communication  
+- **Microsoft Teams** for communication  
 
 All software used is open-source or free for educational use.
 
