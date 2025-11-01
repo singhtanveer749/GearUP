@@ -1,73 +1,60 @@
-# GearUP
-GearUP repository for Studio 3 and Introductory Application Development
+# 🚗 GearUP — Vehicle Rental Web Application
 
-# Getting Started with Create React App
+**GearUP** is a modern web-based vehicle rental system developed as part of the *Studio 3* and *Introductory Application Development* courses at **Otago Polytechnic (Future Skills Campus)**.  
+The system allows users to **search, filter, and book vehicles** conveniently based on their location, preferences, and budget.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 📋 Project Overview
 
-In the project directory, you can run:
+GearUP provides a clean and responsive interface where users can:
 
-### `npm start`
+- Search for available vehicles by **location, type, and price range**
+- Filter results by **transmission type, seating capacity, and budget**
+- View vehicles on an interactive **map interface**
+- See detailed vehicle information including **model, price per day, and features**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The system is built with **React.js** for the front-end and is designed to be scalable for future integration with backend services (like Firebase or Node.js).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 👥 Team Members
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Name | Role | Responsibilities |
+|------|------|------------------|
+| **Waruni Hewage** | Project Manager | Overseeing progress, guidance, and milestone review |
+| **Tariq Khan** | Client | Provides project requirements and feedback |
+| **Anku Ankush** | Developer | UI/UX design, front-end components |
+| **Tanveer Singh** | Developer | Component logic, code integration |
+| **Aviyash Shohil Kumar** | Developer | Project setup, React integration, Git/Jira management |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧠 Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Category | Technology |
+|-----------|-------------|
+| Front-End | React.js, HTML5, CSS3, JavaScript (ES6) |
+| UI Components | React Icons, Google Maps API (mock integration) |
+| Version Control | Git & GitHub |
+| Project Management | Jira (Agile / Scrum) |
+| Development Tools | Visual Studio Code, Node.js, npm |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ⚙️ Installation & Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Follow these steps to run the project locally:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# 1. Clone the repository
+git clone https://github.com/Aviyash1/GearUP.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 2. Navigate to the project folder
+cd GearUP
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 3. Install dependencies
+npm install
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 4. Start the React app
+npm start
