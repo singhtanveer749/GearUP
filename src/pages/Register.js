@@ -32,7 +32,7 @@ export default function Register() {
 
   return (
     <div className="page-container">
-      {/* Brand Section */}
+      {/* brand Section */}
       <div className="brand-badge">
         <img src="/logo192.png" alt="GearUP" />
         <span className="brand-name">GearUP</span>
