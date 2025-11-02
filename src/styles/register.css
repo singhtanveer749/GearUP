@@ -207,7 +207,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 
-  /* Background image */
+  /* background image */ 
   background: 
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
     url("/public/bg.jpeg") no-repeat center center fixed;
