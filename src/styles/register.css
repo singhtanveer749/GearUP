@@ -191,7 +191,7 @@
   text-decoration: underline;
 }
 
-/* ===== Responsive ===== */
+/* ===== Responsive ==== */
 @media (max-width: 600px) {
   .register-card {
     width: 90%;
