@@ -210,7 +210,7 @@ body {
   /* Background image */
   background: 
     linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url("/public/bg2.jpeg") no-repeat center center fixed;
+    url("/public/bg.jpeg") no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
 }
