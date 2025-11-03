@@ -1,0 +1,67 @@
+.terms-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.terms-container {
+  background:transparent;
+  backdrop-filter: blur(2px);
+  padding: 40px 50px;
+  max-width: 850px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.terms-title {
+  font-size: 2rem;
+  color: #004aad;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.intro {
+  font-size: 1rem;
+  color:white;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section h3 {
+  color: #004aad;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.section p {
+  color: white;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.back-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-back {
+  background: #004aad;
+  color: #fff;
+  padding: 10px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn-back:hover {
+  background: #002f6c;
+}

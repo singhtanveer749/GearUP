@@ -1,6 +1,6 @@
 import React from "react";
-import Register from "./pages/Register";
+import TermsAndConditions from "./TermsAndConditions";
 
 export default function App() {
-  return <Register />;
+  return <TermsAndConditions />;
 }
