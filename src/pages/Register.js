@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/register.css";
 
 export default function Register() {
@@ -32,7 +33,7 @@ export default function Register() {
 
   return (
     <div className="page-container">
-      {/* brand Section */}
+      {/* Brand Section */}
       <div className="brand-badge">
         <img src="/logo192.png" alt="GearUP" />
         <span className="brand-name">GearUP</span>
@@ -43,10 +44,9 @@ export default function Register() {
         <h1 className="title-text">REGISTER</h1>
 
         <form className="form-layout" onSubmit={onSubmit}>
-          {/* Name Row */}
           <div className="row-layout">
             <input
-              className="input-box input-medium font-regular"
+              className="input-box"
               type="text"
               name="firstName"
               placeholder="First Name"
@@ -54,7 +54,7 @@ export default function Register() {
               onChange={update}
             />
             <input
-              className="input-box input-medium font-regular"
+              className="input-box"
               type="text"
               name="lastName"
               placeholder="Last Name"
@@ -63,9 +63,8 @@ export default function Register() {
             />
           </div>
 
-          {/* Email */}
           <input
-            className="input-box input-large font-regular"
+            className="input-box"
             type="email"
             name="email"
             placeholder="Email"
@@ -73,10 +72,9 @@ export default function Register() {
             onChange={update}
           />
 
-          {/* Password */}
           <div className="password-wrap">
             <input
-              className="input-box input-large font-regular"
+              className="input-box"
               type={showPw ? "text" : "password"}
               name="password"
               placeholder="Password"
@@ -85,16 +83,15 @@ export default function Register() {
             />
             <button
               type="button"
-              className="toggle-btn font-small"
+              className="toggle-btn"
               onClick={() => setShowPw((p) => !p)}
             >
               {showPw ? "Hide" : "Show"}
             </button>
           </div>
 
-          {/* Confirm Password */}
           <input
-            className="input-box input-large font-regular"
+            className="input-box"
             type="password"
             name="confirm"
             placeholder="Confirm Password"
@@ -102,8 +99,7 @@ export default function Register() {
             onChange={update}
           />
 
-          {/* Terms Checkbox */}
-          <label className="checkbox-row font-small">
+          <label className="checkbox-row">
             <input
               type="checkbox"
               name="terms"
@@ -113,20 +109,23 @@ export default function Register() {
             <span>Terms and Conditions</span>
           </label>
 
-          {/* Message */}
           {msg && (
-            <div className={`message-box ${msg.startsWith("✓") ? "msg-success" : "msg-error"}`}>
+            <div
+              className={`message-box ${
+                msg.startsWith("✓") ? "msg-success" : "msg-error"
+              }`}
+            >
               {msg}
             </div>
           )}
 
-          {/* Submit Button */}
-          <button className="btn-primary font-bold">Sign up</button>
+          <button className="btn-primary">Sign up</button>
         </form>
 
-        <a href="#login" className="login-link font-small">
-          Have an account? Login here
-        </a>
+        {/* Link back to Login */}
+        <Link to="/" className="login-link">
+          Already have an account? Login here
+        </Link>
       </div>
     </div>
   );
